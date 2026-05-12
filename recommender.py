@@ -14,13 +14,14 @@ def convert(obj):
 df['genres'] = df['genres'].apply(convert)
 df['keywords'] = df['keywords'].apply(convert)
 df['tags'] = df['overview'] + " " + df['genres'] + " " + df['keywords']
-from sklearn.feature_extraction.text import TfidfVectorizer
 
+from sklearn.feature_extraction.text import TfidfVectorizer
 tfidf = TfidfVectorizer(stop_words='english')
 vectors = tfidf.fit_transform(df['tags'])
-from sklearn.metrics.pairwise import cosine_similarity
 
+from sklearn.metrics.pairwise import cosine_similarity
 similarity = cosine_similarity(vectors)
+
 def recommend(movie):
     index = df[df['title'] == movie].index[0]
     distances = similarity[index]
