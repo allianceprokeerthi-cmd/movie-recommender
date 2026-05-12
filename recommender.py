@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("movies.csv")
+df = pd.read_csv("tmdb_5000_movies.csv")
 
 df = df[['title', 'overview', 'genres', 'keywords']]
 df = df.fillna('')
