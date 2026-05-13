@@ -1,10 +1,16 @@
 # Movie Recommender System
 
 ## Overview
-A content-based movie recommendation system built using Python and Streamlit.
+A content-based movie recommendation system built using Python.
+
+## Problem Statement
+
+The overall aim of this process is to build a content based model which can recommend movied based on the imput movie choice of user. Insights from this can be used to develop systems for big multimedia and OTT platform to give a better viewing expeience to the users. 
 
 ## Dataset
-The Movies Dataset (Kaggle)
+
+Source: [TMDB](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+
 
 ## Features
 - Content-based filtering
@@ -17,6 +23,3 @@ The Movies Dataset (Kaggle)
 - Scikit-learn
 - Streamlit
 
-## How to run
-pip install -r requirements.txt
-streamlit run app.py
