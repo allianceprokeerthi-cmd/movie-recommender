@@ -114,6 +114,7 @@ Future improvements can include:
 ---
 
 ## 👤 Author
-**Sai Keerthi Pagidi**  
-- Data Analyst | Aspiring Data Scientist  
-- Skilled in Python, SQL, Power BI, Tableau, and Machine Learning
+
+**Keerthi**
+
+🔗 GitHub: [allianceprokeerthi-cmd](https://github.com/allianceprokeerthi-cmd)
